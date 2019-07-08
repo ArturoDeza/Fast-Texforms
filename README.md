@@ -3,7 +3,9 @@
 
 # Fast-Texforms
 
-Code database for Fast Texform generation as proposed in the work of Deza, Chen, Long and Konkle, 2019.
+Code database for Fast Texform generation as proposed in the work of Deza, Chen, Long and Konkle, 2019. 
+
+Here is the code for the previous [texform generation model](https://github.com/brialorelle/TexformGen) as used in Long, Yu & Konkle, 2019. A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
 
 ## Download and Install depending packages
 
