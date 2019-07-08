@@ -5,13 +5,13 @@
 
 Code database for Fast Texform generation as proposed in the work of Deza, Chen, Long and Konkle, 2019.
 
-### Download and Install depending packages
+## Download and Install depending packages
 
 ```
 bash dowload_dependencies.sh
 ```
 
-### Run code demo to generate a sample Texform:
+## Run code demo to generate a sample Texform:
 
 ```
 fast_texform.m 
@@ -20,6 +20,12 @@ fast_texform.m
 ### Examples of different parametrizations for Texform generation
 
 If you find this code useful for your research please consider citing:
+
+#### Modification of Point of Fixation
+
+#### Modification of Rate of Growth of Receptive Field Size (scaling factor)
+
+
 
 ```
 @inproceedings{
