@@ -27,6 +27,10 @@ If you find this code useful for your research please consider citing:
 
 
 
+
+#### Citation
+If you find this code useful for your research please consider citing:
+
 ```
 @inproceedings{
 deza2019accelerated,
