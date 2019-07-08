@@ -19,3 +19,14 @@ fast_texform.m
 
 ### Examples of different parametrizations for Texform generation
 
+If you find this code useful for your research please consider citing:
+
+```
+@inproceedings{
+deza2019accelerated,
+title={Accelerated Texforms: Alternative Methods for Generating Unrecognizable Object Images with Preserved Mid-Level Features},
+author={Arturo Deza and Yi-Chia Chen and Bria Long and Talia Konkle},
+booktitle={BioArXiv / CCN ?},
+year={2019},
+}
+```
