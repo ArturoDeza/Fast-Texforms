@@ -13,3 +13,6 @@ bash dowload_dependencies.sh
 ```
 fast_texform.m 
 ```
+
+### Examples of different parametrizations for Texform generation
+
