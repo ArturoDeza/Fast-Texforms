@@ -1,4 +1,4 @@
-<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="900">
+<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="700">
 
 
 # Fast-Texforms
