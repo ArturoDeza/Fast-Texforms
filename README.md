@@ -3,7 +3,7 @@
 
 # Fast-Texforms
 
-Code database for fast texform generation
+Code database for Fast Texform generation as proposed in the work of Deza, Chen, Long and Konkle, 2019.
 
 ### Download and Install depending packages
 
