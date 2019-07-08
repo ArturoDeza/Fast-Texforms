@@ -1,3 +1,6 @@
+<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="900">
+
+
 # Fast-Texforms
 
 Code database for fast texform generation
