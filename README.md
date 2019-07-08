@@ -7,6 +7,8 @@ Code database for Fast Texform generation as proposed in the work of Deza, Chen,
 
 ## Download and Install depending packages
 
+
+
 ```
 bash dowload_dependencies.sh
 ```
