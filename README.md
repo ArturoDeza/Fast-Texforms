@@ -13,6 +13,8 @@ This code depends on the following modules:
 
 [Steerable Pyramid Toolbox](https://github.com/LabForComputationalVision/matlabPyrTools)
 
+Running the following script should install these modules for you:
+
 ```
 bash dowload_dependencies.sh
 ```
