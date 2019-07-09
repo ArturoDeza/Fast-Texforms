@@ -10,7 +10,7 @@ Here is the code for the previous [Texform generation model](https://github.com/
 
 Texforms are images that preserve the coarse shape and
 texture information of objects, while rendering them unrecognizable
-at  the  basic level [Long, Yu & Konkle, 2018](https://www.pnas.org/content/115/38/E9015). These stimuli have been valuable to test whether cognitive and neural processes depend on explicit recognition of the objects. However, to generate these images, the current implementation and computational complexity of the model requires
+at  the  basic level ([Long, Yu & Konkle, 2018](https://www.pnas.org/content/115/38/E9015)). These stimuli have been valuable to test whether cognitive and neural processes depend on explicit recognition of the objects. However, to generate these images, the current implementation and computational complexity of the model requires
  approximately   4-6  hours  per  object --  thus  preventing  data-hungry  experiments  that  may  require  generating  thousands  of texforms.    Our  contribution  in  this work  includes  the  introduction  of  2  new
 texform generation methods that accelerate the rendering
 time from hours to minutes or seconds respectively. The
