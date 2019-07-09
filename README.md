@@ -1,12 +1,26 @@
 <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="800">
 
+Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
+
 # What is a Texform?
 
 | Input | Texform | 
 | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/640x640_s0.5_a1_o0.5_original.png" width="440"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Animated_Texform.gif" width="440"> | 
 
-Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
+Texforms are images that preserve the coarse shape and
+texture information of objects, while rendering them unrecognizable
+at  the  basic level [Long, Yu & Konkle, 2018](https://www.pnas.org/content/115/38/E9015). These stimuli have been valuable to test whether cognitive and neural processes depend on explicit recognition of the objects. However, to generate these images, the current implementation and computational complexity of the model requires
+ approximately   4-6  hours  per  object --  thus  preventing  data-hungry  experiments  that  may  require  generating  thousands  of texforms.    Our  contribution  in  this work  includes  the  introduction  of  2  new
+texform generation methods that accelerate the rendering
+time from hours to minutes or seconds respectively. The
+first we call Fast-FS-Texform where we accelerate the rendering time of the [Freeman & Simoncelli](https://www.nature.com/articles/nn.2889.pdf?origin=ppub) model
+and  increase  the  output  resolution  by  placing  a  simulated  point  of  fixation  outside  of  the  visual  field.    The
+second, which we call NeuroFovea-Texform, is an adaptation  of  the  newly  proposed  metamer  model  of [Deza, Jonalagadda & Eckstein, 2019](https://openreview.net/forum?id=BJzbG20cFQ) which leverages a
+VGGNet and foveated style transfer.  We show qualitative
+and quantitative results of both new methods opening the
+door to data-intensive texform experiments.
+
 
 ## Download and Install depending packages
 
