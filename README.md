@@ -6,7 +6,7 @@
 | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/640x640_s0.5_a1_o0.5_original.png" width="440"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Animated_Texform.gif" width="440"> | 
 
-Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in (Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
+Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
 
 ## Download and Install depending packages
 
