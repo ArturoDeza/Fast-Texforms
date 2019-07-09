@@ -1,10 +1,5 @@
 <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="800">
 
-
-# Fast-Texforms
-
-Code database for Fast Texform generation as proposed in the work of Deza, Chen, Long and Konkle, 2019. 
-
 # What is a Texform?
 
 | Input | Metamer | 
