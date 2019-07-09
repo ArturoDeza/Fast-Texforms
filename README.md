@@ -34,7 +34,7 @@ fast_texform.m
 #### Modification of Rate of Growth of Receptive Field Size (scaling factor)
 
 ### Papers that have used Texforms
-<b> Mid-level visual features underlie the high-level categorical organization of the ventral stream </b> [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015)
+<b>[Mid-level visual features underlie the high-level categorical organization of the ventral stream. Long, Yu & Konkle, 2019] </b>(https://www.pnas.org/content/115/38/E9015)
 
 
 #### Citation
