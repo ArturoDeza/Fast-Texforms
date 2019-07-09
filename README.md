@@ -45,12 +45,9 @@ fast_texform.m
 ### Examples of different parametrizations for Texform generation
 
 #### Modification of Point of Fixation
-
+(To-Do)
 #### Modification of Rate of Growth of Receptive Field Size (scaling factor)
-
-### Papers that have used Texforms
-[<b>Mid-level visual features underlie the high-level categorical organization of the ventral stream. Long, Yu & Konkle, 2019.</b>](https://www.pnas.org/content/115/38/E9015)
-
+(To-Do)
 
 #### Citation
 If you find this code useful for your research please consider citing:
