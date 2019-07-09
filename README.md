@@ -5,7 +5,7 @@
 
 Code database for Fast Texform generation as proposed in the work of Deza, Chen, Long and Konkle, 2019. 
 
-Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in Long, Yu & Konkle, 2019. A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
+Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in (Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
 
 ## Download and Install depending packages
 
@@ -33,7 +33,8 @@ fast_texform.m
 
 #### Modification of Rate of Growth of Receptive Field Size (scaling factor)
 
-
+### Papers that have used Texforms
+(<b> Mid-level visual features underlie the high-level categorical organization of the ventral stream </b>. Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015)
 
 
 #### Citation
