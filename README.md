@@ -2,7 +2,7 @@
 
 # What is a Texform?
 
-| Input | Metamer | 
+| Input | Texform | 
 | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/640x640_s0.5_a1_o0.5_original.png" width="440"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Animated_Texform.gif" width="440"> | 
 
