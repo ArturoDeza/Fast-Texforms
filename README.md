@@ -5,6 +5,12 @@
 
 Code database for Fast Texform generation as proposed in the work of Deza, Chen, Long and Konkle, 2019. 
 
+# What is a Texform?
+
+| Input | Metamer | 
+| --- | --- |
+| <img src="https://github.com/ArturoDeza/NeuroFovea/blob/master/sample_gifs/1_color.png" width="440"> | <img src="https://github.com/ArturoDeza/NeuroFovea/blob/master/sample_gifs/Reference_vs_Synth_Metamer_V1_Color.gif" width="440"> | 
+
 Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in (Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
 
 ## Download and Install depending packages
