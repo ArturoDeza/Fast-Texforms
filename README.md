@@ -52,9 +52,10 @@ fast_texform.m
 
 
 #### Modification of Rate of Growth of Receptive Field Size (scaling factor)
-| CLow Scaling Factor (s=0.3) | Medium Scaling Factor (s=0.5) | High Scaling Factor (0.7) |  
+| Low Scaling Factor (s=0.3) | Medium Scaling Factor (s=0.5) | High Scaling Factor (0.7) |  
 | --- | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_030.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_050.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_070.gif" width="256"> |
+| --- | --- | --- |
 
 #### Citation
 If you find this code useful for your research please consider citing:
