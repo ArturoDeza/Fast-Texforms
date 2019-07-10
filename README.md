@@ -45,7 +45,13 @@ fast_texform.m
 ### Examples of different parametrizations for Texform generation
 
 #### Modification of Point of Fixation
-(To-Do)
+
+| Center Fixation | Side Fixation | Out of Image Fixation |  
+| --- | --- | --- |
+| <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Animated_Texform_Center.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Animated_Texform_Side.gif" width="256"> | 
+<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Animated_Texform_Further.gif" width="256"> |
+
+
 #### Modification of Rate of Growth of Receptive Field Size (scaling factor)
 (To-Do)
 
