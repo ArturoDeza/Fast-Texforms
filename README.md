@@ -49,7 +49,7 @@ fast_texform.m
 | Center Fixation | Side Fixation | Out of Image Fixation |  
 | --- | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Animation_Texform_Center.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Animation_Texform_Side.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Animated_Texform_Further.gif" width="256"> |
-| <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_Texforms1.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_Texforms2.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_Texforms3.png" width="256"> |
+| <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodles_Texform1.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodles_Texform2.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodles_Texform3.png" width="256"> |
 
 
 #### Modification of Rate of Growth of Receptive Field Size (scaling factor)
