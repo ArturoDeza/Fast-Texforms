@@ -1,6 +1,3 @@
-<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="800">
-
-Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
 
 # What is a Texform?
 
@@ -9,17 +6,15 @@ Here is the code for the previous [Texform generation model](https://github.com/
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/640x640_s0.5_a1_o0.5_original.png" width="440"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Animated_Texform.gif" width="440"> | 
 
 Texforms are images that preserve the coarse shape and
-texture information of objects, while rendering them unrecognizable
-at  the  basic level ([Long, Yu & Konkle, 2018](https://www.pnas.org/content/115/38/E9015)). These stimuli have been valuable to test whether cognitive and neural processes depend on explicit recognition of the objects. However, to generate these images, the current implementation and computational complexity of the model requires
- approximately   4-6  hours  per  object --  thus  preventing  data-hungry  experiments  that  may  require  generating  thousands  of texforms.    Our  contribution  in  this work  includes  the  introduction  of  2  new
-texform generation methods that accelerate the rendering
-time from hours to minutes or seconds respectively. The
-first we call Fast-FS-Texform where we accelerate the rendering time of the [Freeman & Simoncelli](https://www.nature.com/articles/nn.2889.pdf?origin=ppub) model
-and  increase  the  output  resolution  by  placing  a  simulated  point  of  fixation  outside  of  the  visual  field.    The
-second, which we call NeuroFovea-Texform, is an adaptation  of  the  newly  proposed  metamer  model  of [Deza, Jonalagadda & Eckstein, 2019](https://openreview.net/forum?id=BJzbG20cFQ) which leverages a
-VGGNet and foveated style transfer.  We show qualitative
-and quantitative results of both new methods opening the
-door to data-intensive texform experiments.
+texture information of objects using a modified texture synthesis algorithm of Freeman & Simoncelli (XX). 
+
+Long et al., conducted behavioral experiments to select texfroms that are unrecoganizable at the basic level. 
+at  the  basic level ([Long, Yu & Konkle, 2018](https://www.pnas.org/content/115/38/E9015)), thus enabling one to test whether any visual processes depend on explicit recognition or can rely on more primitive mid-level features.  
+
+However, to generate these images, the current implementation and computational complexity of the model requires
+ approximately   4-24  hours  per  object --  a significant hurdle for experiments that require large number of stimuli. 
+ 
+This repository has code to generate texforms in minutes.  This algorithm is implementationally equivalent to Long et al., 2018 (in terms of the first and second order image statistics that are preserved), but is both faster and can generate higher resolution images. 
 
 
 ## Download and Install depending packages
@@ -30,7 +25,7 @@ This code depends on the following modules:
 
 [Steerable Pyramid Toolbox](https://github.com/LabForComputationalVision/matlabPyrTools)
 
-Running the following script should install these modules for you:
+On a linux system, you can install these directly by running the folloing script: 
 
 ```
 bash dowload_dependencies.sh
@@ -42,7 +37,16 @@ bash dowload_dependencies.sh
 fast_texform.m 
 ```
 
-### Examples of different parametrizations for Texform generation
+### Texform Variations
+
+The algorithm used to generate texforms has a number of parameters that yeild texform variations that may be of theoretica interest (e.g. by preserving more or less of the spatial information, which generally renders the stimuli more or less recognizable).
+
+These involve:
+1- simiulating how far out in the periphery is the object placed
+2- changing the rate of growth of the receptive field (i.e. log polar pooling windows)
+Note these variations have similar consequnces.
+
+
 
 #### Modification of Point of Fixation
 
@@ -57,6 +61,13 @@ fast_texform.m
 | --- | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_030.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_050.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_070.gif" width="256"> |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s030.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s050.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s070.png" width="256"> |
+
+#### Differences from Long et al., 2018
+
+<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="800">
+
+Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
+
 
 #### Citation
 If you find this code useful for your research please consider citing:
