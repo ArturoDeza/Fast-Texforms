@@ -37,7 +37,7 @@ bash dowload_dependencies.sh
 fast_texform.m 
 ```
 
-### Texform Variations
+# Texform Variations
 
 The algorithm used to generate texforms has a number of parameters that yeild texform variations that may be of theoretica interest (e.g. by preserving more or less of the spatial information, which generally renders the stimuli more or less recognizable).
 
@@ -48,7 +48,7 @@ Note these variations have similar consequnces.
 
 
 
-#### Modification of Point of Fixation
+## Modification of Point of Fixation
 
 | Center Fixation | Side Fixation | Out of Image Fixation |  
 | --- | --- | --- |
