@@ -42,13 +42,12 @@ fast_texform.m
 The algorithm used to generate texforms has a number of parameters that yeild texform variations that may be of theoretica interest (e.g. by preserving more or less of the spatial information, which generally renders the stimuli more or less recognizable).
 
 These involve:
-1- simiulating how far out in the periphery is the object placed
+1- simiulating how far out in the periphery is the object placed (i.e. vary point of fixation)
 2- changing the rate of growth of the receptive field (i.e. log polar pooling windows)
-Note these variations have similar consequnces.
+Note these variations have similar consequnces, and are depicted below. 
 
 
-
-## Modification of Point of Fixation
+## Varying the point of Fixation
 
 | Center Fixation | Side Fixation | Out of Image Fixation |  
 | --- | --- | --- |
@@ -56,14 +55,17 @@ Note these variations have similar consequnces.
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodles_Texform1.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodles_Texform2.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodles_Texform3.png" width="256"> |
 
 
-#### Modification of Rate of Growth of Receptive Field Size (scaling factor)
+## Varying the rate of Growth of Receptive Field Size (scaling factor)
 | Low Scaling Factor (s=0.3) | Medium Scaling Factor (s=0.5) | High Scaling Factor (0.7) |  
 | --- | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_030.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_050.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_070.gif" width="256"> |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s030.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s050.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s070.png" width="256"> |
 
-#### Differences from Long et al., 2018
+# How is Fast-texform different from the original?
 
+In the original method, stimuli were placed in at small size in a gray image, and the whole image was synthesized assuming a central point of fixation.  This method places the original image fully in the display, and synthesizes based on a point of fixation that is off the image. By doing so, the resulting texform is not only higher resolution, but the algorithm is also faster because there's many fewer pooling regions overall. However, computationally, it is the exact same algorithm.  The original and current methods are depicted below. 
+
+[CHANGE THIS FIGURE!]
 <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="800">
 
 Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
@@ -77,7 +79,7 @@ If you find this code useful for your research please consider citing:
 deza2019accelerated,
 title={Accelerated Texforms: Alternative Methods for Generating Unrecognizable Object Images with Preserved Mid-Level Features},
 author={Arturo Deza and Yi-Chia Chen and Bria Long and Talia Konkle},
-booktitle={BioArXiv / CCN ?},
+booktitle={CCN 2019},
 year={2019},
 }
 ```
