@@ -65,8 +65,7 @@ Note these variations have similar consequnces, and are depicted below.
 
 In the original method, stimuli were placed in at small size in a gray image, and the whole image was synthesized assuming a central point of fixation.  This method places the original image fully in the display, and synthesizes based on a point of fixation that is off the image. By doing so, the resulting texform is not only higher resolution, but the algorithm is also faster because there's many fewer pooling regions overall. However, computationally, it is the exact same algorithm.  The original and current methods are depicted below. 
 
-[CHANGE THIS FIGURE!]
-<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/TexForms_Comparison.png" width="800">
+<img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/TexForms_Comparison_Fast.png" width="800">
 
 Here is the code for the previous [Texform generation model](https://github.com/brialorelle/TexformGen) as used in [Long, Yu & Konkle, 2019](https://www.pnas.org/content/115/38/E9015). A more detailed explanation of what is a Texform can also be accessed [here](https://www.brialong.com/all-about-texforms).
 
