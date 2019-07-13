@@ -3,7 +3,7 @@
 
 | Input | Texform | 
 | --- | --- |
-| <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/640x640_s0.5_a1_o0.5_original.png" width="440"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Animated_Texform.gif" width="440"> | 
+| <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Side1_big_animal_0.56_hoofed-gemsbok1.png" width="440"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Animated_Texform.gif" width="440"> | 
 
 Texforms are images that preserve the coarse shape and
 texture information of objects using a modified texture synthesis algorithm of [Freeman & Simoncelli, 2011](https://www.nature.com/articles/nn.2889). 
