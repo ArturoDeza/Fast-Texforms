@@ -6,7 +6,7 @@
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/640x640_s0.5_a1_o0.5_original.png" width="440"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Animated_Texform.gif" width="440"> | 
 
 Texforms are images that preserve the coarse shape and
-texture information of objects using a modified texture synthesis algorithm of Freeman & Simoncelli (XX). 
+texture information of objects using a modified texture synthesis algorithm of (Freeman & Simoncelli, 2011)[https://www.nature.com/articles/nn.2889]. 
 
 Long et al., conducted behavioral experiments to select texfroms that are unrecoganizable at the basic level. 
 at  the  basic level ([Long, Yu & Konkle, 2018](https://www.pnas.org/content/115/38/E9015)), thus enabling one to test whether any visual processes depend on explicit recognition or can rely on more primitive mid-level features.  
