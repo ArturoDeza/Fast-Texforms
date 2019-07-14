@@ -39,7 +39,7 @@ fast_texform.m
 
 # Texform Variations
 
-The algorithm used to generate texforms has a number of parameters that yeild texform variations that may be of theoretica interest (e.g. by preserving more or less of the spatial information, which generally renders the stimuli more or less recognizable).
+The algorithm used to generate texforms has a number of parameters that yeild texform variations that may be of theoretical interest (e.g. by preserving more or less of the spatial information, which generally renders the stimuli more or less recognizable).
 
 These involve:
 1- simiulating how far out in the periphery is the object placed (i.e. vary point of fixation)
@@ -71,7 +71,6 @@ Here is the code for the previous [Texform generation model](https://github.com/
 
 
 # Citation
-If you find this code useful for your research please consider citing:
 
 ```
 @inproceedings{
