@@ -56,7 +56,7 @@ Note these variations have similar consequnces, and are depicted below.
 
 
 ## Varying the rate of Growth of Receptive Field Size (scaling factor)
-| Low Scaling Factor (s=0.3) | Medium Scaling Factor (s=0.5) | High Scaling Factor (0.7) |  
+| Low Scaling Factor (s=0.3) | Medium Scaling Factor (s=0.5) | High Scaling Factor (s=0.7) |  
 | --- | --- | --- |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_030.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_050.gif" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Scale_070.gif" width="256"> |
 | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s030.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s050.png" width="256"> | <img src="https://github.com/ArturoDeza/Fast-Texforms/blob/master/Gifs/Doodle_s070.png" width="256"> |
