@@ -17,15 +17,15 @@ However, to generate these images, the current implementation and computational 
 This repository has code to generate texforms in minutes.  This algorithm is implementationally equivalent to Long et al., 2018 (in terms of the first and second order image statistics that are preserved), but is both faster and can generate higher resolution images. 
 
 
-## Download and Install depending packages
+## Download and Install depending packages [Linux/MAC]
 
-This code depends on the following modules:
+This code depends on the following modules: 
 
 [Freeman and Simoncelli Metamer model](https://github.com/freeman-lab/metamers)
 
 [Steerable Pyramid Toolbox](https://github.com/LabForComputationalVision/matlabPyrTools)
 
-On a linux system, you can install these directly by running the folloing script: 
+On a linux/MAC system, you can install these directly by running the following script: 
 
 ```
 bash dowload_dependencies.sh
