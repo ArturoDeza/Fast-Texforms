@@ -77,7 +77,7 @@ Here is the code for the previous [Texform generation model](https://github.com/
 deza2019accelerated,
 title={Accelerated Texforms: Alternative Methods for Generating Unrecognizable Object Images with Preserved Mid-Level Features},
 author={Arturo Deza and Yi-Chia Chen and Bria Long and Talia Konkle},
-booktitle={submitted to Cognitive Computational Neuroscience},
+booktitle={Cognitive Computational Neuroscience (CCN) 2019},
 year={2019},
 }
 ```
